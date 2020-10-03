@@ -1,0 +1,1476 @@
+*{
+
+    margin : 0px;
+    padding : 0px;
+
+}
+
+$f : flex;
+$sa : space-around;
+$sb : space-between;
+$fw : wrap;
+$c : center;
+$co : column;
+
+html{
+
+    font-family: monospace;
+    position: relative;
+
+    body{
+
+        text-transform: uppercase;
+
+
+        .talk{
+
+            position: fixed;
+            right : 3%;
+            top: 3%;
+            z-index: 1000;
+            border : none;
+            width : 13%;
+            line-height: 2.7em;
+            background-color : tomato;
+            font-family: monospace;
+            color : whitesmoke;
+            font-weight: bold;
+            font-size : 1.5em;
+            border-radius: 6px;
+            outline : none;
+            cursor : pointer;
+
+        }
+
+        .firstSection{
+            
+            position: relative;
+            z-index: 999;
+            width: 100%;
+            height: 100vh;
+            display: $f;
+            justify-content: $c;
+            align-items: $c;
+            flex-direction: $co;
+            text-align: $c;
+            text-transform: uppercase;
+
+            .whatSigmaHeard{
+
+                position: relative;
+                z-index: 999;
+
+                h2{
+
+                    color : tomato;
+                    font-size : 2.5em;
+                    padding : 2% 0%;
+                    text-align: $c;
+                    background: linear-gradient(304deg, #f64d47, #f2453e, #f07d41, #f05641);
+                    background-size: 800% 800%;
+                    animation: infiniteGradient 4s ease infinite;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                }
+
+                .content{
+    
+                    position: relative;
+                    z-index: 999;
+                    text-align: $c;
+                    color : whitesmoke;
+                    font-size : 1.7em;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+        
+                }
+
+            }
+
+            .tempAndTime{
+
+                width : 100%;
+                margin-top: 1%;
+                display: $f;
+                justify-content : $c;
+                align-items: $c;
+                text-shadow: 2px 2px #141414;
+
+                #temp{
+
+                    position: relative;
+                    z-index: 999;
+                    width : 20%;
+                    display: $f;
+                    justify-content: $c;
+                    align-items: $c;
+                    flex-direction: row-reverse;
+                    margin-right: 1%;
+                    padding : 5% 0%;
+                    color : whitesmoke;
+
+                    h3{
+
+                        font-size : 3em;
+                        text-align: $c;
+
+                    }
+
+                    span{
+
+                        margin-left : 4%;
+
+                        i{
+
+                            color : yellow;
+                            font-size : 1.3em;
+
+                        }
+
+                    }
+        
+                }
+
+                #timer{
+
+                    position: relative;
+                    z-index: 999;
+                    width : 20%;
+                    margin-left: 1%;
+                    padding : 5% 0%;
+                    color : whitesmoke;
+                    display: $f;
+                    justify-content: $c;
+                    
+                    #timerPar{
+
+                        font-size : 2.6em;
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+        .secondSection{
+
+            position: relative;
+            z-index: 996 !important;
+            visibility: visible !important;
+            opacity : 1 !important;
+            display : $f;
+            flex-direction: $co;
+            justify-content: $c;
+            align-items: $c;
+            text-align: $c;
+            padding : 3% 0%;
+            text-transform: uppercase;
+
+            h2{
+
+                color : tomato;
+                background: linear-gradient(304deg, #f64d47, #f2453e, #f07d41, #f05641);
+                background-size: 800% 800%;
+                animation: infiniteGradient 4s ease infinite;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size : 2.3em;
+                letter-spacing: 3px;
+
+            }
+
+            .stuffBlock{
+
+                width : 100%;
+                display: $f;
+                justify-content: $sa;
+                align-items: $c;
+                color : whitesmoke;
+                margin : 5% 0%;
+                text-transform: uppercase;
+
+                .monthAnniversary{
+
+                    display: $f;
+                    flex-direction: $co;
+                    justify-content: $c;
+                    align-items: $c;
+                    width : 30%;
+                    position: relative;
+                    z-index: 998 !important;
+
+                    h3{
+
+                        color : orange;
+                        font-size : 3.2em;
+
+                    }
+
+                    p{
+
+                        padding : 4% 0%;
+                        font-size : 1.5em;
+                        font-weight: bold;
+                        letter-spacing: 2.7px;
+                        text-shadow: 2px 2px #141414;
+
+                    }
+
+                }
+
+                .myTasks{
+
+                    display : $f;
+                    flex-direction: $co;
+                    justify-content: $c;
+                    align-items: $c;
+                    width : 40%;
+                    padding : 4% 0%;
+
+                    h3{
+
+                        font-size : 2.2em;
+                        color : orange;
+
+                    }
+
+                    .tasksHolder{
+
+                        position: relative;
+                        margin: 15% 0%;
+                        width : 100%;
+                        background-color : lighten(#222, 5%);
+                        overflow-y: auto;
+                        height : 300px;
+                        padding : 0% 5%;
+
+                        #noTasksHere{
+
+                            color : tomato;
+                            width : 70%;
+                            font-size : 2em;
+                            left : 15%;
+                            position : absolute;
+                            top: 40%;
+
+                        }
+
+                        .task{
+
+                            display: $f;
+                            justify-content: $c;
+                            align-items: $c;
+                            margin : 10% 0%;
+                            width : 100%;
+
+                            p{
+
+                                color : tomato;
+                                font-weight: bold;
+                                padding-right : 2%;
+                                font-size : 1.3em;
+                                line-height: 1.5em;
+                                text-shadow : 2px 2px #141414;
+
+                            }
+
+                            .taskBox{
+
+                                cursor : pointer;
+                                text-decoration : none;
+                                display : block;
+                                padding : 2%;
+                                margin-left : 2%;
+                                border-radius : 6px;
+                                background-color: darken(#222, 1%);
+
+                                i{
+
+                                    color : tomato;
+                                    font-size : 1.5em;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                    #tasksDone{
+
+                        background-color : transparent;
+                        border : 3px solid tomato;
+                        width : 50%;
+                        line-height : 50px;
+                        border-radius : 6px;
+                        color : tomato;
+                        font-size : 1.3em;
+                        font-weight: bold;
+                        cursor : pointer;
+                        transition : .6s;
+                        outline : none;
+                        display: none;
+
+                        &:hover{
+
+                            background-color : tomato;
+                            color : whitesmoke;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        // Location holder div za devojku
+
+        .locationHolder{
+
+            position: fixed;
+            width : 30%;
+            height : 50%;
+            left: 35%;
+            top: 25%;
+            background-color : #222;
+            border : 5px solid tomato;
+            border-radius: 8px;
+            z-index: 999 !important;
+            display: $f;
+            flex-direction: $co;
+            justify-content: $sa;
+            align-items: $c;
+            text-transform: uppercase;
+            transition : 1.5s;
+            transform : translateY(-1500px);
+
+            .locationImgHolder{
+
+                width : 80%;
+                margin : 3% 0%;
+
+                img{
+
+                    max-width : 100%;
+
+                }
+
+            }
+
+            #nameOfThePlace{
+
+                font-size : 2.4em;
+                color : #f3a81e;
+                font-weight: bold;
+                letter-spacing: 3.5px;
+                text-align: $c;
+
+            }
+
+            #locationOfThePlacePar{
+
+                color : whitesmoke;
+                font-size : 1.6em;
+                text-align: $c;
+                letter-spacing: 3px;
+                padding : 3%;
+
+            }
+
+        }
+
+        // Task div
+
+        .taskAdd{
+
+            position: fixed;
+            width : 30%;
+            height : 50%;
+            left: 35%;
+            top: 25%;
+            background-color : #222;
+            border : 5px solid tomato;
+            border-radius: 8px;
+            z-index: 999 !important;
+            display: $f;
+            flex-direction: $co;
+            justify-content: $sa;
+            align-items: $c;
+            text-transform: uppercase;
+            transition : 1.5s;
+            transform : translateY(-1500px);
+
+
+            h3{
+
+                color : orange;
+                font-size : 2.2em;
+                letter-spacing: 3.5px;
+                text-shadow: 2px 2px #141414;
+
+            }
+
+            #taskField{
+
+                width : 80%;
+                background-color: transparent;
+                border : 3px solid tomato;
+                border-radius: 6px;
+                padding : 2%;
+                color : whitesmoke;
+
+                &::placeholder{
+
+                    color : whitesmoke;
+                    font-family: monospace;
+                    font-weight: bold;
+                    font-size : 1.3em;
+
+                }
+
+            }
+
+            #addTaskButton{
+
+                width : 60%;
+                background-color : transparent;
+                border : 3px solid tomato;
+                color : whitesmoke;
+                line-height: 3em;
+                border-radius: 6px;
+                font-weight: bold;
+                font-size : 1em;
+                outline : none;
+                cursor : pointer;
+                transition : .6s;
+
+                &:hover{
+
+                    background-color : tomato;
+
+                }
+
+            }
+
+        }
+
+        .thirdSection{
+
+            width: 100%;
+            position: relative;
+            z-index: 998;
+            padding : 3% 0%;
+
+            h2{
+
+                text-align : $c;
+                color : tomato;
+                background: linear-gradient(304deg, #f1ca48, #ff8045, #f07d41, #db6934);
+                background-size: 800% 800%;
+                animation: infiniteGradient 4s ease infinite;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size : 2.5em;
+                letter-spacing: 3px;
+
+            }
+
+            .bmrCalculator{
+
+                width : 100%;
+                display: $f;
+                flex-direction: $co;
+                justify-content: $c;
+                align-items: $c;
+                text-shadow: 1.5px 1.5px black;
+                margin-top: 8%;
+
+                h3{
+
+                    background: linear-gradient(304deg, #81d63c, #3dc86b, #88ca30, #3ed610);
+                    background-size: 800% 800%;
+                    animation: infiniteGradient 4s ease infinite;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-weight: bold;
+                    font-size: 2em;
+                    text-shadow: none;
+                    letter-spacing: 3px;
+
+                }
+
+                #calcInfoPar{
+
+                    color : whitesmoke;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    text-align: $c;
+                    padding : 2% 0%;
+                    text-shadow: 2px 2px #141414;
+
+                }
+
+                .calcDiv{
+
+                    width : 80%;
+                    background-color: lighten(#222, 3%);
+                    display: $f;
+                    flex-direction: $co;
+                    justify-content: $c;
+                    align-items: $c;
+                    padding : 5% 0%;
+                    border : 3px solid lighten(#222, 15%);
+                    border-radius: 6px;
+
+                    .calcError{
+
+                        color : tomato;
+                        font-size: 1.2em;
+                        padding-top : 1.5%;
+                        display: none;
+
+                    }
+
+                    .fieldCalc{
+
+                        margin-top : 3%;
+                        background-color: transparent;
+                        color : whitesmoke !important;
+                        padding : 0.5%;
+                        border : 3px solid #55da55;
+                        border-radius: 6px;
+                        width : 18.5%;
+                        
+
+                        &::placeholder{
+
+                            color : #55da55;
+                            padding : 2% !important;
+
+                        }
+
+                    }
+                    
+                    #chooseGender{
+
+                        width : 20%;
+                        background-color: transparent;
+                        border : 3px solid #55da55;
+                        color : #55da55;
+                        padding : 0.5%;
+                        border-radius : 6px;
+
+                        option{
+
+                            background-color: #222;
+
+                        }
+
+                    }
+
+                    #goalChoice{
+
+                        margin-top : 3%;
+                        width : 20%;
+                        background-color: transparent;
+                        border : 3px solid #55da55;
+                        color : #55da55;
+                        padding : 0.5%;
+                        border-radius : 6px;
+
+                        option{
+
+                            background-color: #222;
+
+                        }
+
+                    }
+
+                    #successCalcButton{
+
+                        width : 20%;
+                        cursor : pointer;
+                        outline: none;
+                        border : none;
+                        background-color: #55da55;
+                        color : whitesmoke;
+                        padding : 1.5% 0%;
+                        border-radius: 6px;
+                        font-size: 1.2em;
+                        margin : 4% 0%;
+                        transition: 0.6s;
+
+                        &:hover{
+
+                            background-color: whitesmoke;
+                            color : #55da55;
+
+                        }
+
+                    }
+
+                    .hideShowFinalCalcInfo{
+
+                        width : 80%;
+                        margin : 0px auto;
+                        color : #55da55;
+                        font-weight: bold;
+                        font-size: 1.4em;
+                        display: $f;
+                        flex-direction: $co;
+                        justify-content: $c;
+                        align-items: $c;
+                        text-shadow: 1.5px 1.5px black;
+                        display: none;
+
+                        .successPrintPar{
+
+                            padding : 1.5% 0%;
+                            text-align: $c;
+
+                        }
+
+                    }
+
+                    .planPrinterCalc{
+
+                        width : 70%;
+                        margin : 3% auto;
+                        background-color: lighten(#141414, 5%);
+                        padding : 3%;
+                        border : 1px solid #55da55;
+
+                        p{
+
+                            padding : 1.5% 0%;
+                            text-align: $c;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .yourAndAverageStatsBlock{
+
+                width : 100%;
+
+                .specialHideBlock{
+
+                    display: none;
+
+                }
+
+                .yourPlanBlock{
+
+                    width : 80%;
+                    margin : 3% auto;
+
+                    h2{
+
+                        font-size: 2.2em;
+                        padding-bottom: 5%;
+                        text-align: $c;
+
+                    }
+
+                    .yourPlanBoxes{
+
+                        width : 100%;
+                        background-color: lighten(#222, 4%);
+                        border : 3px solid orange;
+                        border-radius: 6px;
+                        display: $f;
+                        justify-content: $sa;
+                        align-items: $c;
+
+                        .planBox{
+
+                            width : 20%;
+                            text-align: $c;
+                            padding : 5%;
+
+                            i{
+
+                                color : orange;
+                                font-size: 2em;
+
+                            }
+
+                            p{
+
+                                line-height: 1.5em;
+                                padding-top : 8%;
+                                color : whitesmoke;
+                                font-weight: bold;
+                                font-size: 1.3em;
+
+                            }
+
+                            &:nth-child(2){
+
+                                border-left: 3px solid orange;
+                                border-right: 3px solid orange;
+
+                            }
+
+                            &:nth-child(3){
+
+                                border-right: 3px solid orange;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .nutritionBlock{
+
+                width : 100%;
+                margin : 8% 0%;
+                display: $f;
+                justify-content: $sa;
+                align-items: $c;
+
+                .waterBlock{
+
+                    width : 30%;
+                    display: $f;
+                    justify-content: $c;
+                    flex-direction: $co;
+                    align-items: $c;
+
+                    h3{
+
+                        color : cyan;
+                        font-size: 1.7em;
+                        padding-bottom: 6%;
+                        letter-spacing: 3px;
+
+                    }
+
+                    .waterBox{
+
+                        width : 40%;
+                        height : 200px;
+                        background-color: lighten(#222, 10%);
+                        display: $f;
+                        flex-direction: $co;
+                        justify-content: flex-end;
+                        border-radius: 7px;
+                        position: relative;
+
+                        p{
+
+                            color : whitesmoke;
+                            font-size : 1.7em;
+                            position: absolute;
+                            width: 100%;
+                            height : 10%;
+                            text-align: $c;
+                            bottom: 45%;
+
+                        }
+
+                        .animatedWater{
+
+                            width : 100%;
+                            height : 0%;
+                            border-radius: 7px;
+                            background: linear-gradient(304deg, #6dd1d4, #31c8ee, #3bd0f5, #54c3ce);
+                            background-size: 800% 800%;
+                            animation: infiniteGradient 4s ease infinite;
+                            display: $f;
+                            justify-content: $sa;
+                            align-items: flex-end;
+                            overflow: hidden;
+                            transition : 0.7s;
+
+                            .bubble{
+
+                                i{
+
+                                    color : #2d89df;
+
+                                }
+
+                                &:nth-child(1) i{
+
+                                    transform : translateY(2000px);
+                                    animation : bubble1 3.6s ease-in-out infinite;
+
+                                }
+
+                                &:nth-child(2) i{
+
+                                    transform : translateY(2000px);
+                                    animation : bubble1 4.3s ease-in-out infinite;
+
+                                }
+
+                                &:nth-child(3) i{
+
+                                    transform : translateY(2000px);
+                                    animation : bubble1 8.2s ease-in-out infinite;
+
+                                }
+
+                                &:nth-child(4) i{
+
+                                    transform : translateY(2000px);
+                                    animation : bubble1 6.5s ease-in-out infinite;
+
+                                }
+
+                                &:nth-child(5) i{
+
+                                    transform : translateY(2000px);
+                                    animation : bubble1 5.5s ease-in-out infinite;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                .foodBlock{
+
+                    width : 60%;
+                    display: $f;
+                    flex-direction: $co;
+                    justify-content: $c;
+                    align-items: $c;
+
+                    .foodInfo{
+
+                        width : 100%;
+                        margin-top: 10%;
+
+                        .food{
+
+                            width : 100%;
+                            display: $f;
+                            justify-content: $sa;
+                            align-items: $c;
+
+                            .foodChoices{
+
+                                width : 45%;
+                                display : $f;
+                                justify-content: $c;
+                                align-items: $c;
+                                flex-direction: $co;
+
+                                #nameProductSearch{
+
+                                    width : 70%;
+                                    margin-bottom : 7%;
+                                    padding : 2%;
+                                    background-color: transparent;
+                                    border : 3px solid tomato;
+                                    color : tomato;
+                                    border-radius: 6px;
+
+                                    &::placeholder{
+
+                                        color : tomato;
+                                        font-weight: bold;
+
+                                    }
+
+                                }
+
+                                #selectFood{
+
+                                    background-color: transparent;
+                                    border : 3px solid tomato;
+                                    width : 90%;
+                                    color : tomato;
+                                    overflow-y :auto; 
+                                    overflow-x:hidden;
+            
+                                    option{
+            
+                                        padding : 4%;
+                                        background-color: #222;
+                                        font-weight: bold;
+                                        font-size : 1.2em;
+                                        letter-spacing: 1.7px;
+            
+                                    }
+            
+                                }
+
+                            }
+
+                            #insertProductButton{
+
+                                margin : 7% 0%;
+                                padding : 1%;
+                                width : 70%;
+                                background-color: tomato;
+                                border : 3px solid tomato;
+                                border-radius: 6px;
+                                color : whitesmoke;
+                                font-weight: bold;
+                                font-size: 1.1em;
+                                letter-spacing: 2px;
+                                line-height: 2em;
+                                outline: none;
+                                cursor: pointer;
+                                transition: 0.6s;
+
+                                &:hover{
+
+                                    background-color: transparent;
+                                    color : tomato;
+
+                                }
+
+                            }
+
+                            #errorInsertingPar{
+
+                                color : tomato;
+                                font-size: 1.3em;
+                                font-weight: bold;
+                                display: none;
+
+                            }
+
+                            #successInsertingPar{
+
+                                color : #5ac55a;
+                                font-size: 1.4em;
+                                font-weight: bold;
+                                display: none;
+
+                            }
+
+                            .foodItself{
+
+                                width : 40%;
+                                display: $f;
+                                flex-direction: $co;
+                                justify-content: $c;
+                                align-items: $c;
+
+                                h3{
+
+                                    color : yellow;
+                                    font-size: 2.3em;
+                                    letter-spacing: 2.5px;
+                                    background: linear-gradient(304deg, #e2f026, #fbe623, #faf612, #f1d96b);
+                                    background-size: 800% 800%;
+                                    animation: infiniteGradient 4s ease infinite;
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                    text-align: $c;
+
+                                }
+
+                                .foodImgHolder{
+
+                                    width : 65%;
+                                    margin : 9% 0%;
+
+                                    img{
+
+                                        width : 100%;
+        
+                                    }
+
+                                }
+
+                                p{
+
+                                    color : whitesmoke;
+                                    font-weight: bold;
+                                    font-size: 1.4em;
+                                    letter-spacing: 2.4px;
+
+                                }
+
+                                #weightOfProduct{
+
+                                    background-color: transparent;
+                                    border : 3px solid tomato;
+                                    color : whitesmoke;
+                                    padding : 2%;
+                                    margin-top : 15%;
+
+                                    &::placeholder{
+
+                                        color : whitesmoke;
+                                        font-weight: bold;
+
+                                    }
+
+                                }
+
+                                #weightError{
+
+                                    color : tomato;
+                                    padding-top: 10% !important;
+                                    text-align: $c;
+                                    display: none;
+
+                                }
+                            
+                            }
+
+                        }
+
+                        .nutrientsAndCals{
+
+                            width : 100%;
+                            background-color : lighten(#222, 5%);
+                            margin : 5% 0%;
+                            padding : 5% 0%;
+                            border : 3px solid lighten(#222, 20%);
+
+                            .calories{
+
+                                text-align: $c;
+
+                                p{
+
+                                    color : tomato;
+                                    font-weight: bold;
+                                    font-size : 1.7em;
+
+                                }
+
+                                .caloriesFafa{
+
+                                    color : orange;
+
+                                }
+
+                            }
+
+                            .nutrients{
+
+                                width : 100%;
+                                display: $f;
+                                justify-content: $sa;
+                                align-items: $c;
+                                margin-top : 10%;
+
+                                .nutrientBox{
+
+                                    padding : 5%;
+                                    width : 30%;
+                                    display: $f;
+                                    flex-direction: $co;
+                                    justify-content: $c;
+                                    align-items: $c;
+
+                                    h4{
+
+                                        color : tomato;
+                                        font-weight : bold;
+                                        padding-bottom: 7%;
+                                        font-size : 1.3em;
+
+                                    }
+
+                                    i{
+
+                                        color : tomato;
+                                        font-size : 2.2em;
+
+                                    }
+
+                                    p{
+
+                                        color : whitesmoke;
+                                        padding-top: 8%;
+                                        font-size : 1.5em;
+
+                                    }
+
+                                    &:nth-child(2){
+
+                                        border-left : 3px solid #c74c4c;
+                                        border-right : 3px solid #c74c4c;
+
+                                    }
+                                    
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .forthSection{
+
+            width: 100%;
+            position: relative;
+            z-index: 998;
+            margin: 0px auto;
+
+            #noProducts{
+
+                background: linear-gradient(304deg, #81d63c, #3dc86b, #88ca30, #3ed610);
+                background-size: 800% 800%;
+                animation: infiniteGradient 4s ease infinite;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size : 2em;
+                text-align: $c;
+                padding-bottom: 3%;
+
+            }
+
+            .productsPrint{
+
+                width : 80%;
+                margin : 0px auto;
+                display: $f;
+                justify-content: $c;
+                flex-direction: $co;
+                align-items: $c;
+
+                .productFromLocal{
+
+                    display : block;
+                    width : 100%;
+                    background-color: lighten(#222, 5%);
+                    border : 3px solid lighten(#222, 15%);
+                    margin : 1.5% 0% !important;
+                    padding: 3% 0%;
+
+                    .productPictureLocal{
+
+                        width : 40%;
+                        margin: 0px auto;
+                        display: $f;
+                        justify-content: $c;
+                        flex-direction: $co;
+                        align-items: $c;
+                        margin-bottom : 4%;
+
+                        img{
+
+                            width : 35%;
+                            max-width: 100%;
+                            height : auto;
+
+                        }
+
+                        h3{
+
+                            background: linear-gradient(304deg, #ee884d, #e6870b, #f57e2f, #f1a820);
+                            background-size: 800% 800%;
+                            animation: infiniteGradient 4s ease infinite;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-size : 1.8em;
+                            font-weight: bold;
+                            padding-top: 7%;
+                            letter-spacing: 2px;
+                            text-align: $c;
+
+                        }
+
+                    }
+
+                    .productCaloriesLocal{
+
+                        display: $f;
+                        flex-direction: $co;
+                        justify-content: $c;
+                        align-items: $c;
+
+                        .caloriesFafa{
+
+                            color : orange;
+                            font-size : 1.6em;
+                            padding-bottom : 1%;
+
+                        }
+
+                        p{
+
+                            color : tomato;
+                            font-weight: bold;
+                            font-size : 1.4em;
+
+                        }
+
+                    }
+
+                    .nutrientsFromLocal{
+
+                        display: $f;
+                        justify-content: $sa;
+                        align-items: $c;
+                        margin-top: 5%;
+
+                        .productNutrientLocalBox{
+
+                            display: $f;
+                            flex-direction: $co;
+                            justify-content: $c;
+                            align-items: $c;
+                            width : 30%;
+
+                            h3{
+
+                                color : tomato;
+                                font-size: 1.4em;
+
+                            }
+
+                            i{
+
+                                color : tomato;
+                                padding : 15% 0%;
+                                font-size: 1.9em;
+
+                            }
+
+                            p{
+
+                                color : whitesmoke;
+                                font-weight: bold;
+                                font-size : 1.5em;
+
+                            }
+
+                        }
+
+                        .productProteinLocal{
+
+                            border-right : 3px solid tomato;
+                            border-left : 3px solid tomato;
+
+                        }
+
+                    }
+
+                    .removeProductButton{
+
+                        background-color: transparent !important;
+                        display: block;
+                        margin : 5% auto 0% auto;
+                        padding : 1.5%;
+                        border : 3px solid tomato;
+                        color : tomato;
+                        font-weight: bold;
+                        font-size: 1.2em;
+                        cursor: pointer;
+                        outline: none;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .showNutrientsSum{
+
+            width: 100%;
+            position: relative;
+            z-index: 998;
+            display: $f;
+            flex-direction: $co;
+            justify-content: $c;
+            align-items: $c;
+            margin : 5% 0%;
+            display: none;
+
+            h3{
+
+                color : rgb(65, 204, 65);
+                font-size : 2em;
+                text-align: $c;
+
+            }
+
+            .totalsblock{
+
+                width : 80%;
+                background-color: lighten(#222, 5%);
+                display: $f;
+                flex-wrap : $fw;
+                justify-content: $sa;
+                align-items: $c;
+                margin : 5% auto;
+                border : 3px solid lighten(#222, 15%);
+
+                .totalsBox{
+
+                    width : 20%;
+                    display: $f;
+                    flex-direction: $co;
+                    justify-content: $c;
+                    align-items: $c;
+                    padding : 2.3%;
+                    
+                    i{
+
+                        color : #53c553;
+                        font-size: 1.9em;
+                        padding : 10%;
+
+                    }
+
+                    h4{
+
+                        color : rgb(230, 230, 230);
+                        font-size : 1.3em;
+                        padding : 2% 0%;
+
+                    }
+
+                    &:nth-child(2){
+
+                        border-right : 3px solid #42c742;
+                        border-left : 3px solid #42c742;
+
+                    }
+
+                    &:nth-child(3){
+
+                        border-right: 3px solid #42c742;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// Animacije za baloncice za animatedWater
+
+@keyframes bubble1{
+
+    0%{
+
+        transform : translateY(200px);
+
+    }
+
+    50%{
+
+        transform : translateY(100px);
+
+    }
+
+    100%{
+
+        transform : translateY(-500px);
+
+    }
+
+}
+
+// Background animacija
+
+.container{
+    position: fixed;
+    width : 100%;
+    height : 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: #222;
+    z-index: 994 !important;
+  }
+  svg{
+    position: relative;
+    height: 100%;
+    z-index: 994 !important;
+  }
+  .lines {
+    opacity: 0.05; 
+  }
+  
+  .line {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #4C3A90; }
+  
+  .lights {
+    opacity: 0.9;
+  }
+  
+  .light {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: tomato;
+ }
+ 
+// Custom scrollbar
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: tomato;
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lighten(tomato, 5%);
+  }
+
+  
+// Selection
+
+::selection {
+    color: tomato;
+    background: tomato;
+  }
+
+  // Animacije
+
+  @keyframes infiniteGradient {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+}

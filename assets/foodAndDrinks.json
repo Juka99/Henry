@@ -1,0 +1,1048 @@
+[
+
+    {
+
+        "id" : 1,
+        "name" : "Apple",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/fruits/apple.png",
+        "calories" : 52,
+        "protein" : 0.26,
+        "carbs" : 13.81,
+        "fats" : 0.17,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 2,
+        "name" : "Banana",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/fruits/banana.png",
+        "calories" : 89,
+        "protein" : 1.09,
+        "carbs" : 22.84,
+        "fats" : 0.33,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 3,
+        "name" : "Grapefruit",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/fruits/grapefruit.png",
+        "calories" : 42,
+        "protein" : 0.8,
+        "carbs" : 11,
+        "fats" : 0.1,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 4,
+        "name" : "Peach",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/fruits/peach.png",
+        "calories" : 39,
+        "protein" : 0.9,
+        "carbs" : 10,
+        "fats" : 0.25,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 5,
+        "name" : "Smoki",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/smoki.png",
+        "calories" : 521,
+        "protein" : 13,
+        "carbs" : 50,
+        "fats" : 29,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 6,
+        "name" : "Tuc",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/tuc.png",
+        "calories" : 479,
+        "protein" : 8.4,
+        "carbs" : 67,
+        "fats" : 19,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 7,
+        "name" : "Doritos Nacho",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/doritos.png",
+        "calories" : 503,
+        "protein" : 7.2,
+        "carbs" : 57,
+        "fats" : 26,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 8,
+        "name" : "Clipsy",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/clipsy.png",
+        "calories" : 539,
+        "protein" : 5.9,
+        "carbs" : 53.1,
+        "fats" : 33.3,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 9,
+        "name" : "Chipsy (Rebrasti)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/chipsyRebrasti.png",
+        "calories" : 530,
+        "protein" : 6,
+        "carbs" : 52,
+        "fats" : 33,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 10,
+        "name" : "Chipsy Baked Oven (Salted)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/chipsyOvenSalted.png",
+        "calories" : 443,
+        "protein" : 5,
+        "carbs" : 71,
+        "fats" : 14,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 11,
+        "name" : "Clipsy Popcorn (Peanut)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/clipsyPopcornPeanut.png",
+        "calories" : 487,
+        "protein" : 15.2,
+        "carbs" : 44.2,
+        "fats" : 25.6,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 12,
+        "name" : "Pardon (Peanut)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/pardonKikiriki.png",
+        "calories" : 459,
+        "protein" : 15,
+        "carbs" : 54,
+        "fats" : 19,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 13,
+        "name" : "Gud Kikiriki",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/gudKikirikiStandard.png",
+        "calories" : 607,
+        "protein" : 27,
+        "carbs" : 10,
+        "fats" : 49,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 14,
+        "name" : "Clipsy Chicken Drums",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/clipsyChickenDrums.png",
+        "calories" : 538,
+        "protein" : 3.3,
+        "carbs" : 54,
+        "fats" : 34,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 15,
+        "name" : "Twix",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/twix.png",
+        "calories" : 492,
+        "protein" : 4.4,
+        "carbs" : 65,
+        "fats" : 24,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 16,
+        "name" : "Milka Alpine Milk",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaAlpineMilk.png",
+        "calories" : 530,
+        "protein" : 6.3,
+        "carbs" : 59,
+        "fats" : 29,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 17,
+        "name" : "Milka Noisette",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaNoisette.png",
+        "calories" : 549,
+        "protein" : 7.5,
+        "carbs" : 53,
+        "fats" : 34,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 18,
+        "name" : "Milka Hazelnuts",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaHazelnuts.png",
+        "calories" : 556,
+        "protein" : 8.1,
+        "carbs" : 49,
+        "fats" : 36,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 19,
+        "name" : "Milka Oreo",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaOreo.png",
+        "calories" : 557,
+        "protein" : 5.3,
+        "carbs" : 55,
+        "fats" : 35,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 20,
+        "name" : "Milka Oreo Brownie",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaOreoBrownie.png",
+        "calories" : 552,
+        "protein" : 6.7,
+        "carbs" : 51,
+        "fats" : 35,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 21,
+        "name" : "Milka Milkinis",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaMilkinis.png",
+        "calories" : 580,
+        "protein" : 5.1,
+        "carbs" : 52.5,
+        "fats" : 38.5,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 22,
+        "name" : "Milka Strawberry",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaStrawberry.png",
+        "calories" : 552,
+        "protein" : 4.6,
+        "carbs" : 57,
+        "fats" : 34,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 23,
+        "name" : "Milka Raisins And Nuts",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/milkaRaisinsAndNuts.png",
+        "calories" : 497,
+        "protein" : 6.1,
+        "carbs" : 58,
+        "fats" : 26,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 24,
+        "name" : "Raffaello",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/raffaello.png",
+        "calories" : 628,
+        "protein" : 7.2,
+        "carbs" : 38.3,
+        "fats" : 48.6,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 25,
+        "name" : "After Eight",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/afterEight.png",
+        "calories" : 425,
+        "protein" : 2.1,
+        "carbs" : 73.3,
+        "fats" : 12.9,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 26,
+        "name" : "7 Days Cream&Cookies",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/sevenDaysCreamCookies.png",
+        "calories" : 487,
+        "protein" : 7,
+        "carbs" : 46,
+        "fats" : 30,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 27,
+        "name" : "7 Days Strawberry",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/sevenDaysStrawberry.png",
+        "calories" : 388,
+        "protein" : 6,
+        "carbs" : 46,
+        "fats" : 16,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 28,
+        "name" : "Jaffa Cakes",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/jaffaRegular.png",
+        "calories" : 378,
+        "protein" : 4.1,
+        "carbs" : 69,
+        "fats" : 9,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 29,
+        "name" : "Egg",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/egg.png",
+        "calories" : 155,
+        "protein" : 13,
+        "carbs" : 1.1,
+        "fats" : 11,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 30,
+        "name" : "Milk",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/mojaKravica.png",
+        "calories" : 55,
+        "protein" : 3,
+        "carbs" : 4.5,
+        "fats" : 2.8,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 31,
+        "name" : "Mayo",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/dijamantMajonez.png",
+        "calories" : 728,
+        "protein" : 1,
+        "carbs" : 0.9,
+        "fats" : 80,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 32,
+        "name" : "Ketchup",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/ketchup.png",
+        "calories" : 111,
+        "protein" : 1.5,
+        "carbs" : 25.7,
+        "fats" : 0.1,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 33,
+        "name" : "Cheese (Feta)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/fetaSir.png",
+        "calories" : 220,
+        "protein" : 13.5,
+        "carbs" : 2.2,
+        "fats" : 17.5,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 34,
+        "name" : "Yogurt (Dukat)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/dukatJogurt.png",
+        "calories" : 60,
+        "protein" : 3.2,
+        "carbs" : 4.6,
+        "fats" : 3.2,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 35,
+        "name" : "Bread (White)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/hlebBeli.png",
+        "calories" : 257,
+        "protein" : 7.5,
+        "carbs" : 51,
+        "fats" : 2.2,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 36,
+        "name" : "Ajvar Ljuti",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/ajvar.png",
+        "calories" : 78,
+        "protein" : 1.5,
+        "carbs" : 8,
+        "fats" : 4,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 37,
+        "name" : "Krem Bananica",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/kremBananica.png",
+        "calories" : 370,
+        "protein" : 1.5,
+        "carbs" : 74,
+        "fats" : 7.6,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 38,
+        "name" : "Tomato",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/tomato.png",
+        "calories" : 17,
+        "protein" : 0.9,
+        "carbs" : 3.9,
+        "fats" : 0.2,
+        "changedWeight" : false
+
+    },
+    
+    {
+
+        "id" : 39,
+        "name" : "Nesquik",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/nesquick.png",
+        "calories" : 383,
+        "protein" : 5,
+        "carbs" : 80,
+        "fats" : 3.3,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 40,
+        "name" : "Sugar",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/sugar.png",
+        "calories" : 400,
+        "protein" : 0,
+        "carbs" : 100,
+        "fats" : 0,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 41,
+        "name" : "Whey Protein",
+        "weightAndType" : {
+
+            "weight" : 30,
+            "type" : "g"
+
+        },
+        "url" : "/regular/wheyProtein.png",
+        "calories" : 116,
+        "protein" : 21,
+        "carbs" : 3.7,
+        "fats" : 1.9,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 42,
+        "name" : "Chocolate Milk",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/cokoladnoMlekoGranice.png",
+        "calories" : 60,
+        "protein" : 3,
+        "carbs" : 10,
+        "fats" : 1,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 43,
+        "name" : "Fructal (Orange)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/fructalNarandza.png",
+        "calories" : 47,
+        "protein" : 0.3,
+        "carbs" : 11.2,
+        "fats" : 0,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 44,
+        "name" : "Ham (Pik)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/pikSunka.png",
+        "calories" : 82,
+        "protein" : 15,
+        "carbs" : 1,
+        "fats" : 2,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 45,
+        "name" : "Sirni Namaz",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/sirNamaz.png",
+        "calories" : 222,
+        "protein" : 6.5,
+        "carbs" : 4,
+        "fats" : 20,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 46,
+        "name" : "Dobro Jutro Margarin (Dijet)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/margarinDobroJutroDijet.png",
+        "calories" : 315,
+        "protein" : 0,
+        "carbs" : 0,
+        "fats" : 35,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 47,
+        "name" : "Cheese (Kackavalj)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/kackavalj.png",
+        "calories" : 389,
+        "protein" : 25,
+        "carbs" : 0,
+        "fats" : 32.14,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 48,
+        "name" : "Psenicna Tortilja",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/psenicnaTortilja.jpg",
+        "calories" : 353,
+        "protein" : 9.1,
+        "carbs" : 54.3,
+        "fats" : 10,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 49,
+        "name" : "Pileca Prsa",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/pileceGrudi.png",
+        "calories" : 120,
+        "protein" : 22.5,
+        "carbs" : 0,
+        "fats" : 2.62,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 50,
+        "name" : "Knjaz Milos Remix (Narandza)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "ml"
+
+        },
+        "url" : "/regular/knjazMilosRemixNarandza.png",
+        "calories" : 44,
+        "protein" : 0,
+        "carbs" : 11,
+        "fats" : 0,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 51,
+        "name" : "Z Bregov Puding (Cokolada)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/zBregovPudingCokolada.png",
+        "calories" : 81,
+        "protein" : 10,
+        "carbs" : 6.4,
+        "fats" : 1.6,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 52,
+        "name" : "Clipsy Kokice (Sir)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/clipsyPopcornCheese.png",
+        "calories" : 509,
+        "protein" : 8.7,
+        "carbs" : 49.5,
+        "fats" : 28,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 53,
+        "name" : "Kokice Sa Sirom (Mogyi)",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/snacks/mogyiPopcornCheese.png",
+        "calories" : 463,
+        "protein" : 8.3,
+        "carbs" : 53,
+        "fats" : 24,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 54,
+        "name" : "Domacica",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/sweets/domacica.png",
+        "calories" : 498,
+        "protein" : 6,
+        "carbs" : 63,
+        "fats" : 24,
+        "changedWeight" : false
+
+    },
+
+    {
+
+        "id" : 55,
+        "name" : "Ala Kajmak",
+        "weightAndType" : {
+
+            "weight" : 100,
+            "type" : "g"
+
+        },
+        "url" : "/regular/alaKajmak.png",
+        "calories" : 240,
+        "protein" : 6.1,
+        "carbs" : 1.1,
+        "fats" : 23.5,
+        "changedWeight" : false
+
+    }
+
+]

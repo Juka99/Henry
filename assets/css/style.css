@@ -1,0 +1,1553 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: monospace;
+  position: relative;
+}
+
+html body {
+  text-transform: uppercase;
+}
+
+html body .talk {
+  position: fixed;
+  right: 3%;
+  top: 3%;
+  z-index: 1000;
+  border: none;
+  width: 13%;
+  line-height: 2.7em;
+  background-color: tomato;
+  font-family: monospace;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+html body .firstSection {
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+html body .firstSection .whatSigmaHeard {
+  position: relative;
+  z-index: 999;
+}
+
+html body .firstSection .whatSigmaHeard h2 {
+  color: tomato;
+  font-size: 2.5em;
+  padding: 2% 0%;
+  text-align: center;
+  background: linear-gradient(304deg, #f64d47, #f2453e, #f07d41, #f05641);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html body .firstSection .whatSigmaHeard .content {
+  position: relative;
+  z-index: 999;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+html body .firstSection .tempAndTime {
+  width: 100%;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 2px 2px #141414;
+}
+
+html body .firstSection .tempAndTime #temp {
+  position: relative;
+  z-index: 999;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-right: 1%;
+  padding: 5% 0%;
+  color: whitesmoke;
+}
+
+html body .firstSection .tempAndTime #temp h3 {
+  font-size: 3em;
+  text-align: center;
+}
+
+html body .firstSection .tempAndTime #temp span {
+  margin-left: 4%;
+}
+
+html body .firstSection .tempAndTime #temp span i {
+  color: yellow;
+  font-size: 1.3em;
+}
+
+html body .firstSection .tempAndTime #timer {
+  position: relative;
+  z-index: 999;
+  width: 20%;
+  margin-left: 1%;
+  padding: 5% 0%;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .firstSection .tempAndTime #timer #timerPar {
+  font-size: 2.6em;
+}
+
+html body .secondSection {
+  position: relative;
+  z-index: 996 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 3% 0%;
+  text-transform: uppercase;
+}
+
+html body .secondSection h2 {
+  color: tomato;
+  background: linear-gradient(304deg, #f64d47, #f2453e, #f07d41, #f05641);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3em;
+  letter-spacing: 3px;
+}
+
+html body .secondSection .stuffBlock {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+  margin: 5% 0%;
+  text-transform: uppercase;
+}
+
+html body .secondSection .stuffBlock .monthAnniversary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  position: relative;
+  z-index: 998 !important;
+}
+
+html body .secondSection .stuffBlock .monthAnniversary h3 {
+  color: orange;
+  font-size: 3.2em;
+}
+
+html body .secondSection .stuffBlock .monthAnniversary p {
+  padding: 4% 0%;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2.7px;
+  text-shadow: 2px 2px #141414;
+}
+
+html body .secondSection .stuffBlock .myTasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  padding: 4% 0%;
+}
+
+html body .secondSection .stuffBlock .myTasks h3 {
+  font-size: 2.2em;
+  color: orange;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder {
+  position: relative;
+  margin: 15% 0%;
+  width: 100%;
+  background-color: #2f2f2f;
+  overflow-y: auto;
+  height: 300px;
+  padding: 0% 5%;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder #noTasksHere {
+  color: tomato;
+  width: 70%;
+  font-size: 2em;
+  left: 15%;
+  position: absolute;
+  top: 40%;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10% 0%;
+  width: 100%;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder .task p {
+  color: tomato;
+  font-weight: bold;
+  padding-right: 2%;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px #141414;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder .task .taskBox {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding: 2%;
+  margin-left: 2%;
+  border-radius: 6px;
+  background-color: #1f1f1f;
+}
+
+html body .secondSection .stuffBlock .myTasks .tasksHolder .task .taskBox i {
+  color: tomato;
+  font-size: 1.5em;
+}
+
+html body .secondSection .stuffBlock .myTasks #tasksDone {
+  background-color: transparent;
+  border: 3px solid tomato;
+  width: 50%;
+  line-height: 50px;
+  border-radius: 6px;
+  color: tomato;
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: .6s;
+  transition: .6s;
+  outline: none;
+  display: none;
+}
+
+html body .secondSection .stuffBlock .myTasks #tasksDone:hover {
+  background-color: tomato;
+  color: whitesmoke;
+}
+
+html body .locationHolder {
+  position: fixed;
+  width: 30%;
+  height: 50%;
+  left: 35%;
+  top: 25%;
+  background-color: #222;
+  border: 5px solid tomato;
+  border-radius: 8px;
+  z-index: 999 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translateY(-1500px);
+          transform: translateY(-1500px);
+}
+
+html body .locationHolder .locationImgHolder {
+  width: 80%;
+  margin: 3% 0%;
+}
+
+html body .locationHolder .locationImgHolder img {
+  max-width: 100%;
+}
+
+html body .locationHolder #nameOfThePlace {
+  font-size: 2.4em;
+  color: #f3a81e;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  text-align: center;
+}
+
+html body .locationHolder #locationOfThePlacePar {
+  color: whitesmoke;
+  font-size: 1.6em;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 3%;
+}
+
+html body .taskAdd {
+  position: fixed;
+  width: 30%;
+  height: 50%;
+  left: 35%;
+  top: 25%;
+  background-color: #222;
+  border: 5px solid tomato;
+  border-radius: 8px;
+  z-index: 999 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translateY(-1500px);
+          transform: translateY(-1500px);
+}
+
+html body .taskAdd h3 {
+  color: orange;
+  font-size: 2.2em;
+  letter-spacing: 3.5px;
+  text-shadow: 2px 2px #141414;
+}
+
+html body .taskAdd #taskField {
+  width: 80%;
+  background-color: transparent;
+  border: 3px solid tomato;
+  border-radius: 6px;
+  padding: 2%;
+  color: whitesmoke;
+}
+
+html body .taskAdd #taskField::-webkit-input-placeholder {
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+html body .taskAdd #taskField:-ms-input-placeholder {
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+html body .taskAdd #taskField::-ms-input-placeholder {
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+html body .taskAdd #taskField::placeholder {
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+html body .taskAdd #addTaskButton {
+  width: 60%;
+  background-color: transparent;
+  border: 3px solid tomato;
+  color: whitesmoke;
+  line-height: 3em;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+html body .taskAdd #addTaskButton:hover {
+  background-color: tomato;
+}
+
+html body .thirdSection {
+  width: 100%;
+  position: relative;
+  z-index: 998;
+  padding: 3% 0%;
+}
+
+html body .thirdSection h2 {
+  text-align: center;
+  color: tomato;
+  background: linear-gradient(304deg, #f1ca48, #ff8045, #f07d41, #db6934);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
+
+html body .thirdSection .bmrCalculator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 1.5px 1.5px black;
+  margin-top: 8%;
+}
+
+html body .thirdSection .bmrCalculator h3 {
+  background: linear-gradient(304deg, #81d63c, #3dc86b, #88ca30, #3ed610);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: none;
+  letter-spacing: 3px;
+}
+
+html body .thirdSection .bmrCalculator #calcInfoPar {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 2% 0%;
+  text-shadow: 2px 2px #141414;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv {
+  width: 80%;
+  background-color: #2a2a2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 0%;
+  border: 3px solid #484848;
+  border-radius: 6px;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .calcError {
+  color: tomato;
+  font-size: 1.2em;
+  padding-top: 1.5%;
+  display: none;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .fieldCalc {
+  margin-top: 3%;
+  background-color: transparent;
+  color: whitesmoke !important;
+  padding: 0.5%;
+  border: 3px solid #55da55;
+  border-radius: 6px;
+  width: 18.5%;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .fieldCalc::-webkit-input-placeholder {
+  color: #55da55;
+  padding: 2% !important;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .fieldCalc:-ms-input-placeholder {
+  color: #55da55;
+  padding: 2% !important;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .fieldCalc::-ms-input-placeholder {
+  color: #55da55;
+  padding: 2% !important;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .fieldCalc::placeholder {
+  color: #55da55;
+  padding: 2% !important;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #chooseGender {
+  width: 20%;
+  background-color: transparent;
+  border: 3px solid #55da55;
+  color: #55da55;
+  padding: 0.5%;
+  border-radius: 6px;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #chooseGender option {
+  background-color: #222;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #goalChoice {
+  margin-top: 3%;
+  width: 20%;
+  background-color: transparent;
+  border: 3px solid #55da55;
+  color: #55da55;
+  padding: 0.5%;
+  border-radius: 6px;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #goalChoice option {
+  background-color: #222;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #successCalcButton {
+  width: 20%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #55da55;
+  color: whitesmoke;
+  padding: 1.5% 0%;
+  border-radius: 6px;
+  font-size: 1.2em;
+  margin: 4% 0%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv #successCalcButton:hover {
+  background-color: whitesmoke;
+  color: #55da55;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .hideShowFinalCalcInfo {
+  width: 80%;
+  margin: 0px auto;
+  color: #55da55;
+  font-weight: bold;
+  font-size: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-shadow: 1.5px 1.5px black;
+  display: none;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .hideShowFinalCalcInfo .successPrintPar {
+  padding: 1.5% 0%;
+  text-align: center;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .planPrinterCalc {
+  width: 70%;
+  margin: 3% auto;
+  background-color: #212121;
+  padding: 3%;
+  border: 1px solid #55da55;
+}
+
+html body .thirdSection .bmrCalculator .calcDiv .planPrinterCalc p {
+  padding: 1.5% 0%;
+  text-align: center;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock {
+  width: 100%;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .specialHideBlock {
+  display: none;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock {
+  width: 80%;
+  margin: 3% auto;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock h2 {
+  font-size: 2.2em;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes {
+  width: 100%;
+  background-color: #2c2c2c;
+  border: 3px solid orange;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes .planBox {
+  width: 20%;
+  text-align: center;
+  padding: 5%;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes .planBox i {
+  color: orange;
+  font-size: 2em;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes .planBox p {
+  line-height: 1.5em;
+  padding-top: 8%;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes .planBox:nth-child(2) {
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+}
+
+html body .thirdSection .yourAndAverageStatsBlock .yourPlanBlock .yourPlanBoxes .planBox:nth-child(3) {
+  border-right: 3px solid orange;
+}
+
+html body .thirdSection .nutritionBlock {
+  width: 100%;
+  margin: 8% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock h3 {
+  color: cyan;
+  font-size: 1.7em;
+  padding-bottom: 6%;
+  letter-spacing: 3px;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox {
+  width: 40%;
+  height: 200px;
+  background-color: #3c3c3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 7px;
+  position: relative;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox p {
+  color: whitesmoke;
+  font-size: 1.7em;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  bottom: 45%;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater {
+  width: 100%;
+  height: 0%;
+  border-radius: 7px;
+  background: linear-gradient(304deg, #6dd1d4, #31c8ee, #3bd0f5, #54c3ce);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble i {
+  color: #2d89df;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble:nth-child(1) i {
+  -webkit-transform: translateY(2000px);
+          transform: translateY(2000px);
+  -webkit-animation: bubble1 3.6s ease-in-out infinite;
+          animation: bubble1 3.6s ease-in-out infinite;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble:nth-child(2) i {
+  -webkit-transform: translateY(2000px);
+          transform: translateY(2000px);
+  -webkit-animation: bubble1 4.3s ease-in-out infinite;
+          animation: bubble1 4.3s ease-in-out infinite;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble:nth-child(3) i {
+  -webkit-transform: translateY(2000px);
+          transform: translateY(2000px);
+  -webkit-animation: bubble1 8.2s ease-in-out infinite;
+          animation: bubble1 8.2s ease-in-out infinite;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble:nth-child(4) i {
+  -webkit-transform: translateY(2000px);
+          transform: translateY(2000px);
+  -webkit-animation: bubble1 6.5s ease-in-out infinite;
+          animation: bubble1 6.5s ease-in-out infinite;
+}
+
+html body .thirdSection .nutritionBlock .waterBlock .waterBox .animatedWater .bubble:nth-child(5) i {
+  -webkit-transform: translateY(2000px);
+          transform: translateY(2000px);
+  -webkit-animation: bubble1 5.5s ease-in-out infinite;
+          animation: bubble1 5.5s ease-in-out infinite;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo {
+  width: 100%;
+  margin-top: 10%;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch {
+  width: 70%;
+  margin-bottom: 7%;
+  padding: 2%;
+  background-color: transparent;
+  border: 3px solid tomato;
+  color: tomato;
+  border-radius: 6px;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::-webkit-input-placeholder {
+  color: tomato;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch:-ms-input-placeholder {
+  color: tomato;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::-ms-input-placeholder {
+  color: tomato;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::placeholder {
+  color: tomato;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #selectFood {
+  background-color: transparent;
+  border: 3px solid tomato;
+  width: 90%;
+  color: tomato;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #selectFood option {
+  padding: 4%;
+  background-color: #222;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 1.7px;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #insertProductButton {
+  margin: 7% 0%;
+  padding: 1%;
+  width: 70%;
+  background-color: tomato;
+  border: 3px solid tomato;
+  border-radius: 6px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 2em;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #insertProductButton:hover {
+  background-color: transparent;
+  color: tomato;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #errorInsertingPar {
+  color: tomato;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: none;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #successInsertingPar {
+  color: #5ac55a;
+  font-size: 1.4em;
+  font-weight: bold;
+  display: none;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself h3 {
+  color: yellow;
+  font-size: 2.3em;
+  letter-spacing: 2.5px;
+  background: linear-gradient(304deg, #e2f026, #fbe623, #faf612, #f1d96b);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself .foodImgHolder {
+  width: 65%;
+  margin: 9% 0%;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself .foodImgHolder img {
+  width: 100%;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself p {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.4em;
+  letter-spacing: 2.4px;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct {
+  background-color: transparent;
+  border: 3px solid tomato;
+  color: whitesmoke;
+  padding: 2%;
+  margin-top: 15%;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct::-webkit-input-placeholder {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct:-ms-input-placeholder {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct::-ms-input-placeholder {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct::placeholder {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightError {
+  color: tomato;
+  padding-top: 10% !important;
+  text-align: center;
+  display: none;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals {
+  width: 100%;
+  background-color: #2f2f2f;
+  margin: 5% 0%;
+  padding: 5% 0%;
+  border: 3px solid #555555;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .calories {
+  text-align: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .calories p {
+  color: tomato;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .calories .caloriesFafa {
+  color: orange;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients .nutrientBox {
+  padding: 5%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients .nutrientBox h4 {
+  color: tomato;
+  font-weight: bold;
+  padding-bottom: 7%;
+  font-size: 1.3em;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients .nutrientBox i {
+  color: tomato;
+  font-size: 2.2em;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients .nutrientBox p {
+  color: whitesmoke;
+  padding-top: 8%;
+  font-size: 1.5em;
+}
+
+html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals .nutrients .nutrientBox:nth-child(2) {
+  border-left: 3px solid #c74c4c;
+  border-right: 3px solid #c74c4c;
+}
+
+html body .forthSection {
+  width: 100%;
+  position: relative;
+  z-index: 998;
+  margin: 0px auto;
+}
+
+html body .forthSection #noProducts {
+  background: linear-gradient(304deg, #81d63c, #3dc86b, #88ca30, #3ed610);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+html body .forthSection .productsPrint {
+  width: 80%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .forthSection .productsPrint .productFromLocal {
+  display: block;
+  width: 100%;
+  background-color: #2f2f2f;
+  border: 3px solid #484848;
+  margin: 1.5% 0% !important;
+  padding: 3% 0%;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productPictureLocal {
+  width: 40%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4%;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productPictureLocal img {
+  width: 35%;
+  max-width: 100%;
+  height: auto;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productPictureLocal h3 {
+  background: linear-gradient(304deg, #ee884d, #e6870b, #f57e2f, #f1a820);
+  background-size: 800% 800%;
+  -webkit-animation: infiniteGradient 4s ease infinite;
+          animation: infiniteGradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 7%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productCaloriesLocal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productCaloriesLocal .caloriesFafa {
+  color: orange;
+  font-size: 1.6em;
+  padding-bottom: 1%;
+}
+
+html body .forthSection .productsPrint .productFromLocal .productCaloriesLocal p {
+  color: tomato;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal .productNutrientLocalBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal .productNutrientLocalBox h3 {
+  color: tomato;
+  font-size: 1.4em;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal .productNutrientLocalBox i {
+  color: tomato;
+  padding: 15% 0%;
+  font-size: 1.9em;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal .productNutrientLocalBox p {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+html body .forthSection .productsPrint .productFromLocal .nutrientsFromLocal .productProteinLocal {
+  border-right: 3px solid tomato;
+  border-left: 3px solid tomato;
+}
+
+html body .forthSection .productsPrint .productFromLocal .removeProductButton {
+  background-color: transparent !important;
+  display: block;
+  margin: 5% auto 0% auto;
+  padding: 1.5%;
+  border: 3px solid tomato;
+  color: tomato;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+}
+
+html body .showNutrientsSum {
+  width: 100%;
+  position: relative;
+  z-index: 998;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% 0%;
+  display: none;
+}
+
+html body .showNutrientsSum h3 {
+  color: #41cc41;
+  font-size: 2em;
+  text-align: center;
+}
+
+html body .showNutrientsSum .totalsblock {
+  width: 80%;
+  background-color: #2f2f2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% auto;
+  border: 3px solid #484848;
+}
+
+html body .showNutrientsSum .totalsblock .totalsBox {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.3%;
+}
+
+html body .showNutrientsSum .totalsblock .totalsBox i {
+  color: #53c553;
+  font-size: 1.9em;
+  padding: 10%;
+}
+
+html body .showNutrientsSum .totalsblock .totalsBox h4 {
+  color: #e6e6e6;
+  font-size: 1.3em;
+  padding: 2% 0%;
+}
+
+html body .showNutrientsSum .totalsblock .totalsBox:nth-child(2) {
+  border-right: 3px solid #42c742;
+  border-left: 3px solid #42c742;
+}
+
+html body .showNutrientsSum .totalsblock .totalsBox:nth-child(3) {
+  border-right: 3px solid #42c742;
+}
+
+@-webkit-keyframes bubble1 {
+  0% {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+  50% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
+}
+
+@keyframes bubble1 {
+  0% {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+  50% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  background: #222;
+  z-index: 994 !important;
+}
+
+svg {
+  position: relative;
+  height: 100%;
+  z-index: 994 !important;
+}
+
+.lines {
+  opacity: 0.05;
+}
+
+.line {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #4C3A90;
+}
+
+.lights {
+  opacity: 0.9;
+}
+
+.light {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: tomato;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7961;
+}
+
+::-moz-selection {
+  color: tomato;
+  background: tomato;
+}
+
+::selection {
+  color: tomato;
+  background: tomato;
+}
+
+@-webkit-keyframes infiniteGradient {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+  100% {
+    background-position: 0% 26%;
+  }
+}
+
+@keyframes infiniteGradient {
+  0% {
+    background-position: 0% 56%;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+  100% {
+    background-position: 0% 26%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
