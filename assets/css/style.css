@@ -908,50 +908,13 @@ html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food {
 }
 
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices {
-  width: 45%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch {
-  width: 70%;
-  margin-bottom: 7%;
-  padding: 2%;
-  background-color: transparent;
-  border: 3px solid tomato;
-  color: tomato;
-  border-radius: 6px;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::-webkit-input-placeholder {
-  color: tomato;
-  font-weight: bold;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch:-ms-input-placeholder {
-  color: tomato;
-  font-weight: bold;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::-ms-input-placeholder {
-  color: tomato;
-  font-weight: bold;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #nameProductSearch::placeholder {
-  color: tomato;
-  font-weight: bold;
 }
 
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices #selectFood {
@@ -969,43 +932,6 @@ html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodChoices 
   font-weight: bold;
   font-size: 1.2em;
   letter-spacing: 1.7px;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #insertProductButton {
-  margin: 7% 0%;
-  padding: 1%;
-  width: 70%;
-  background-color: tomato;
-  border: 3px solid tomato;
-  border-radius: 6px;
-  color: whitesmoke;
-  font-weight: bold;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 2em;
-  outline: none;
-  cursor: pointer;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #insertProductButton:hover {
-  background-color: transparent;
-  color: tomato;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #errorInsertingPar {
-  color: tomato;
-  font-size: 1.3em;
-  font-weight: bold;
-  display: none;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food #successInsertingPar {
-  color: #5ac55a;
-  font-size: 1.4em;
-  font-weight: bold;
-  display: none;
 }
 
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself {
@@ -1035,11 +961,10 @@ html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself h
           animation: infiniteGradient 4s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
 }
 
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself .foodImgHolder {
-  width: 65%;
+  width: 55%;
   margin: 9% 0%;
 }
 
@@ -1080,13 +1005,6 @@ html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightOfProduct::placeholder {
   color: whitesmoke;
   font-weight: bold;
-}
-
-html body .thirdSection .nutritionBlock .foodBlock .foodInfo .food .foodItself #weightError {
-  color: tomato;
-  padding-top: 10% !important;
-  text-align: center;
-  display: none;
 }
 
 html body .thirdSection .nutritionBlock .foodBlock .foodInfo .nutrientsAndCals {
@@ -1169,7 +1087,6 @@ html body .forthSection {
   width: 100%;
   position: relative;
   z-index: 998;
-  margin: 0px auto;
 }
 
 html body .forthSection #noProducts {
@@ -1247,7 +1164,6 @@ html body .forthSection .productsPrint .productFromLocal .productPictureLocal h3
   font-weight: bold;
   padding-top: 7%;
   letter-spacing: 2px;
-  text-align: center;
 }
 
 html body .forthSection .productsPrint .productFromLocal .productCaloriesLocal {

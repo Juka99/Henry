@@ -873,30 +873,9 @@ html{
 
                             .foodChoices{
 
-                                width : 45%;
+                                width : 40%;
                                 display : $f;
                                 justify-content: $c;
-                                align-items: $c;
-                                flex-direction: $co;
-
-                                #nameProductSearch{
-
-                                    width : 70%;
-                                    margin-bottom : 7%;
-                                    padding : 2%;
-                                    background-color: transparent;
-                                    border : 3px solid tomato;
-                                    color : tomato;
-                                    border-radius: 6px;
-
-                                    &::placeholder{
-
-                                        color : tomato;
-                                        font-weight: bold;
-
-                                    }
-
-                                }
 
                                 #selectFood{
 
@@ -921,50 +900,6 @@ html{
 
                             }
 
-                            #insertProductButton{
-
-                                margin : 7% 0%;
-                                padding : 1%;
-                                width : 70%;
-                                background-color: tomato;
-                                border : 3px solid tomato;
-                                border-radius: 6px;
-                                color : whitesmoke;
-                                font-weight: bold;
-                                font-size: 1.1em;
-                                letter-spacing: 2px;
-                                line-height: 2em;
-                                outline: none;
-                                cursor: pointer;
-                                transition: 0.6s;
-
-                                &:hover{
-
-                                    background-color: transparent;
-                                    color : tomato;
-
-                                }
-
-                            }
-
-                            #errorInsertingPar{
-
-                                color : tomato;
-                                font-size: 1.3em;
-                                font-weight: bold;
-                                display: none;
-
-                            }
-
-                            #successInsertingPar{
-
-                                color : #5ac55a;
-                                font-size: 1.4em;
-                                font-weight: bold;
-                                display: none;
-
-                            }
-
                             .foodItself{
 
                                 width : 40%;
@@ -983,13 +918,12 @@ html{
                                     animation: infiniteGradient 4s ease infinite;
                                     -webkit-background-clip: text;
                                     -webkit-text-fill-color: transparent;
-                                    text-align: $c;
 
                                 }
 
                                 .foodImgHolder{
 
-                                    width : 65%;
+                                    width : 55%;
                                     margin : 9% 0%;
 
                                     img{
@@ -1023,15 +957,6 @@ html{
                                         font-weight: bold;
 
                                     }
-
-                                }
-
-                                #weightError{
-
-                                    color : tomato;
-                                    padding-top: 10% !important;
-                                    text-align: $c;
-                                    display: none;
 
                                 }
                             
@@ -1134,7 +1059,6 @@ html{
             width: 100%;
             position: relative;
             z-index: 998;
-            margin: 0px auto;
 
             #noProducts{
 
@@ -1196,7 +1120,6 @@ html{
                             font-weight: bold;
                             padding-top: 7%;
                             letter-spacing: 2px;
-                            text-align: $c;
 
                         }
 

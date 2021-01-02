@@ -20,7 +20,7 @@
 
 
 <div class="container"> 
-  <svg class="background__lights" id="lines" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 1920 1080" xml:space="preserve" preserveAspectRatio="none">
+  <svg class="background__lights" id="lines" x="0px" y="0px" viewbox="0 0 1920 1080" xml:space="preserve" preserveAspectRatio="none">
     <g class="lines">
       <rect class="line" x="1253.6" width="4.5" height="1080"></rect>
       <rect class="line" x="873.3" width="1.8" height="1080"></rect>
@@ -391,19 +391,11 @@
               <div class="food">
 
                 <div class="foodChoices">
-                  
-                  <input type="text" placeholder="Type the name of the product..." id='nameProductSearch'/>
 
                   <select name="foodSelect" size='4' id="selectFood">
 
       
                   </select>
-
-                  <button id='insertProductButton'>Insert Product</button>
-
-                  <p id='errorInsertingPar'>You didn't choose any product</p>
-
-                  <p id='successInsertingPar'>You inserted a product !</p>
 
                 </div>
 
@@ -420,8 +412,6 @@
                 <p><span id='weightValue'>0</span><span id='gramsOrLitres'>g</span></p>
 
                 <input type="number" id='weightOfProduct' placeholder="Insert weight (optional)"/>
-
-                <p id='weightError'>Weight can't be bigger then 5 digits</p>
 
                 </div>
 
